@@ -30,6 +30,8 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+LOGOUT_REDIRECT_URL = 'home'
+
 INSTALLED_APPS = [
     
     'django.contrib.admin',
@@ -38,7 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'widget_tweaks',
+
     'boards',
+    'accounts',
 ]
 
 
